@@ -14,7 +14,7 @@ function showBottom(){
     document.getElementById('colorBoxRight').style.cssText = 'visibility: hidden; font-size: 44px';
 };
 
-
+ 
 
 function bottomBoxOpacityHalf() {
     var el = document.getElementById("colorBoxBottom");
