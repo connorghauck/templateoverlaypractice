@@ -1,0 +1,90 @@
+#container {
+    background-color: skyblue;
+    height: 450px;
+    width: 550px;
+    position: relative;
+}
+#hedgehog {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#HEADER {
+    font-family: 'Gotham Condensed Book';
+}
+
+.theFont {
+    font-family: 'Gotham Condensed Book';
+}
+
+#colorBoxRight {
+    height: 100%;
+    width: 25%;
+    visibility: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 46px;
+    background: rgba(76, 175, 80, 1);
+    /*background: green;*/
+}
+
+#colorBoxLeft {
+    height: 100%;
+    width: 25%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    visibility: hidden;
+    font-size: 46px;
+    background: rgba(76, 175, 80, 1);
+    /*background: green;*/
+}
+
+#colorBoxBottom {
+    height: 25%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    visibility: hidden;
+    font-size: 46px;
+    background: rgba(76, 175, 80, 1);
+    /*background: green;*/
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat-Bold'), url(http://fonts.gstatic.com/s/montserrat/v7/IQHow_FEYlDC4Gzy_m8fcmaVI6zN22yiurzcBKxPjFE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), url(http://fonts.gstatic.com/s/montserrat/v7/zhcz-_WihjSQC0oHJ9TCYAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+    font-family: 'Gotham Black';
+    src: local('Gotham Black'), url(../vendors/GothamBlack/Gotham-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: local('Gotham Book'), url(../vendors/GothamBook/Gotham-Book.ttf);
+}
+
+@font-face {
+    font-family: 'Gotham Bold';
+    src: local('Gotham Bold'), url(../vendors/GothamBold/Gotham-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Gotham Condensed Book';
+    src: local('Gotham Condensed Book'), url(../vendors/GothamCondensedBook/GothamCondensed-Book.ttf);
+}
