@@ -1,20 +1,100 @@
 function showRight(){
-    document.getElementById('colorBoxRight').style.cssText = 'visibility: visible; font-size: 44px';
-    document.getElementById('colorBoxLeft').style.cssText = 'visibility: hidden; font-size: 44px';
-    document.getElementById('colorBoxBottom').style.cssText = 'visibility: hidden; font-size: 44px';
+    document.getElementById('colorBoxRight').style.cssText = 'visibility: visible';
+    document.getElementById('colorBoxLeft').style.cssText = 'visibility: hidden';
+    document.getElementById('colorBoxBottom').style.cssText = 'visibility: hidden';
+    var div = document.getElementById('theFontIdRight');
+
+    div.onclick = function() {
+        this.contentEditable = true;
+        this.focus();
+    }
+    div.onmouseout = function() {
+        this.contentEditable = false;
+    }
+
+    var small = document.getElementById('theSmallFontRight');
+    small.onclick = function() {
+        this.contentEditable = true;
+        this.focus();
+    }
+    small.onmouseout = function() {
+        this.contentEditable = false;
+    }
+
+    var smaller = document.getElementById('theSmallerFontRight');
+    smaller.onclick = function() {
+        this.contentEditable = true;
+        this.focus();
+    }
+    smaller.onmouseout = function() {
+        this.contentEditable = false;
+    }
 };
 function showLeft(){
-    document.getElementById('colorBoxLeft').style.cssText = 'visibility: visible; font-size: 44px';
-    document.getElementById('colorBoxRight').style.cssText = 'visibility: hidden; font-size: 44px';
-    document.getElementById('colorBoxBottom').style.cssText = 'visibility: hidden; font-size: 44px';
+    document.getElementById('colorBoxLeft').style.cssText = 'visibility: visible';
+    document.getElementById('colorBoxRight').style.cssText = 'visibility: hidden';
+    document.getElementById('colorBoxBottom').style.cssText = 'visibility: hidden';
+    var div = document.getElementById('theFontIdLeft');
+    div.onclick = function() {
+        this.contentEditable = true;
+        this.focus();
+    }
+    div.onmouseout = function() {
+        this.contentEditable = false;
+    }
+
+    var small = document.getElementById('theSmallFontLeft');
+    small.onclick = function() {
+        this.contentEditable = true;
+        this.focus();
+    }
+    small.onmouseout = function() {
+        this.contentEditable = false;
+    }
+
+    var smaller = document.getElementById('theSmallerFontLeft');
+    smaller.onclick = function() {
+        this.contentEditable = true;
+        this.focus();
+    }
+    smaller.onmouseout = function() {
+        this.contentEditable = false;
+    }
 };
 function showBottom(){
-    document.getElementById('colorBoxBottom').style.cssText = 'visibility: visible; font-size: 44px';
-    document.getElementById('colorBoxLeft').style.cssText = 'visibility: hidden; font-size: 44px';
-    document.getElementById('colorBoxRight').style.cssText = 'visibility: hidden; font-size: 44px';
+    document.getElementById('colorBoxBottom').style.cssText = 'visibility: visible';
+    document.getElementById('colorBoxLeft').style.cssText = 'visibility: hidden';
+    document.getElementById('colorBoxRight').style.cssText = 'visibility: hidden';
+    var div = document.getElementById('theFontIdBottom');
+    div.onclick = function() {
+        this.contentEditable = true;
+        this.focus();
+    }
+    div.onmouseout = function() {
+        this.contentEditable = false;
+    }
+
+    var small = document.getElementById('theSmallFontBottom');
+    small.onclick = function() {
+        this.contentEditable = true;
+        this.focus();
+    }
+    small.onmouseout = function() {
+        this.contentEditable = false;
+    }
+
+    var smaller = document.getElementById('theSmallerFontBottom');
+    smaller.onclick = function() {
+        this.contentEditable = true;
+        this.focus();
+    }
+    smaller.onmouseout = function() {
+        this.contentEditable = false;
+    }
 };
 
- 
+
+
 
 function bottomBoxOpacityHalf() {
     var el = document.getElementById("colorBoxBottom");

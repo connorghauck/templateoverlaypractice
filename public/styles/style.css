@@ -1,8 +1,9 @@
 #container {
     background-color: skyblue;
-    height: 450px;
-    width: 550px;
+    height: 611px;
+    width: 800px;
     position: relative;
+    font-size: 40px;
 }
 #hedgehog {
     height: 100%;
@@ -17,57 +18,180 @@
 .theFont {
     font-family: 'Gotham Condensed Book';
 }
- 
-#colorBoxRight {
-    height: 100%;
-    width: 25%;
-    visibility: hidden;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    font-size: 46px;
-    background: rgba(76, 175, 80, 1);
-    /*background: green;*/
+
+
+
+#theFontIdLeft {
+    position: relative;
+    height: 65%;
+    font-size: 85%;
+    margin: 0 0 30px 0;
+}
+
+#theSmallFontLeft {
+    position: relative;
+    margin: -15px 0 0 0;
+    font-family: 'Gotham Bold';
+    font-size: 50%;
+}
+
+#theSmallerFontLeft {
+    position: relative;
+    font-size: 50%;
+}
+
+#pictureLeft{
+    content: url('CL_Icon_rev.png');
+    height: 10%;
+    width: auto;
+    position: relative;
+    top: 3%;
+    left: 1%;
 }
 
 #colorBoxLeft {
     height: 100%;
-    width: 25%;
-    position: absolute;
-    left: 0px;
-    top: 0px;
+    width: 33%;
     visibility: hidden;
-    font-size: 46px;
+    position: relative;
+    padding: 2% 3% 0% 4%;
+    bottom: 100%;
     background: rgba(76, 175, 80, 1);
-    /*background: green;*/
+}
+
+
+
+
+
+
+
+
+#theFontIdRight {
+    font-size: 36px;
+    position: relative;
+    height: 65%
+}
+
+#theSmallFontRight {
+    position: relative;
+    margin: -15px 0 0 0;
+    font-family: 'Gotham Bold';
+    font-size: 90%;
+}
+
+#theSmallerFontRight {
+    position: relative;
+    font-size: 90%;
+}
+
+#pictureRight{
+    content: url('CL_Icon_rev.png');
+    height: 10%;
+    width: auto;
+    position: relative;
+    top: 15%;
+    left: 65%;
+}
+
+#colorBoxRight {
+    height: 100%;
+    width: 33%;
+    visibility: hidden;
+    position: relative;
+    text-align: right;
+    right: -75%;
+    bottom: 200%;
+    background: rgba(76, 175, 80, 1);
+}
+
+
+
+
+
+
+
+
+#theFontIdBottom {
+    position: relative;
+    width: 80%;
+    padding: 3% 0 0 0;
+    /*margin: 0 0 3% 0 ;*/
+    left: 18%;
+    font-size: 36px;
+    line-height: 95%;
+    text-align: left;
+    z-index: 1;
+}
+
+#theSmallFontBottom {
+    position: relative;
+    margin: 2% 5% 0 0;
+    width: 25%;
+    height: 5%;
+    font-family: 'Gotham Bold';
+    font-size: 50%;
+    text-align: left;
+    left: 18%;
+    bottom: 110%;
+}
+
+#theSmallerFontBottom {
+    position: relative;
+    font-size: 50%;
+    text-align: left;
+    left: 40%;
+    bottom: 115%;
+    width: 60%;
+    margin: 0 0 5% 0;
+}
+
+.verticalLine {
+    border-left: solid #000000;
+    padding: 4% 10% 16% 2%;
+    margin: -12% 5% -5% 0;
+    position: relative;
+    left: 15%;
+    bottom: 30%;
+    border-width: 1px;
+    width: 1%;
+    z-index: 0;
+}
+
+#pictureBottom{
+    content: url('CL_Icon_rev.png');
+    height: auto;
+    width: 12%;
+    position: relative;
+    bottom: 600%;
+    left: -2%;
 }
 
 #colorBoxBottom {
-    height: 25%;
+    height: 33%;
     width: 100%;
-    position: absolute;
-    bottom: 0px;
     visibility: hidden;
-    font-size: 46px;
+    position: relative;
+    text-align: center;
+    padding: 0 1% 22% 5%;
+    bottom: 233%;
     background: rgba(76, 175, 80, 1);
-    /*background: green;*/
 }
 
-@font-face {
-  font-family: 'Montserrat-Bold';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Montserrat-Bold'), url(http://fonts.gstatic.com/s/montserrat/v7/IQHow_FEYlDC4Gzy_m8fcmaVI6zN22yiurzcBKxPjFE.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
 
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Montserrat-Regular'), url(http://fonts.gstatic.com/s/montserrat/v7/zhcz-_WihjSQC0oHJ9TCYAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @font-face {
     font-family: 'Gotham Black';
